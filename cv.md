@@ -91,20 +91,20 @@ function squareDigits(num) {
 
 ## Education
 
-- **RS School** | JavaScript/Front-end. Stage 0
-  - _June 2023 - now | on-line_
-- **Cosinus** | Computer science medical technician
-  - _September 2022 - now | Warsaw (Poland)_
-- **Udemy** | Full course on JavaScript + React
-  - _September 2022 - now | On-line_
-- **Cisco Networking Academy** | IT Essentials
-  - _November 2022 - May 2023 | On-line_
-- **Udemy** | WEB-developing
-  - _December 2021 - August 2022 | On-line_
-- **State University of Grodno** | Course of photography
-  - _November 2017 - May 2018 | Godno(Belarus)_
-- **Belarusian State Economic University** | Finance and credit
-  - _September 2003 - June 2008 | Minsk (Belarus)_
+- **RS School** - JavaScript/Front-end. Stage 0
+  - _June 2023 - now (On-line)_
+- **Cosinus** - Computer science medical technician
+  - _September 2022 - now (Warsaw/Poland)_
+- **Udemy** - Full course on JavaScript + React
+  - _September 2022 - now (On-line)_
+- **Cisco Networking Academy** - IT Essentials
+  - _November 2022 - May 2023 (On-line)_
+- **Udemy** - WEB-developing
+  - _December 2021 - August 2022 (On-line)_
+- **State University of Grodno** - Course of photography
+  - _November 2017 - May 2018 (Godno/Belarus)_
+- **Belarusian State Economic University** - Finance and credit
+  - _September 2003 - June 2008 (Minsk/Belarus)_
 
 ---
 
