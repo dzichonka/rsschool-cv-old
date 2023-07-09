@@ -54,7 +54,9 @@
         <hr>
         <div class="title"><h2>About Me</h2></div>
         <div class="about-descr">Looking for junior Front-end developer position that will allow to demonstrate and broaden my intellectual and technical capabilities in the field of IT.
+          <br>
           I hope that my tech and soft skills acquied during my education and work experience will come in handy here as well.
+          <br>
           Now I am improving my English, reading a lot about Front-end, expanding my technical horizons.
           Ready to work, learning and grow.</div>
       </section>
@@ -92,17 +94,16 @@
       <section class="section section-code" id="code">
         <hr>
         <div class="title"><h2>Code example</h2></div>
-        <div class="code-descr">Looking for junior Front-end developer position that will allow to demonstrate and broaden my intellectual and technical capabilities in the field of IT.
-          I hope that my tech and soft skills acquied during my education and work experience will come in handy here as well.
-          Now I am improving my English, reading a lot about Front-end, expanding my technical horizons.
-          Ready to work, learning and grow.</div>
-  <pre>
-    <code>
+        <div class="code-descr">In this kata, you are asked to square every digit of a number and concatenate them.
+          <br>
+          For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1. (81-1-1-81)
+          <br>
+          Note: The function accepts an integer and returns an integer.</div><pre><code>
       function squareDigits(num) {
         let result = "";
         if (Number.isInteger(num)) {
           let index = num.toString();
-          for (let i = 0; i < index.length; i++) {
+          for (let i = 0; i &LT; index.length; i++) {
             let indexNum = +index.substr(i, 1);
             result += `${indexNum * indexNum}`;
         }
@@ -111,9 +112,7 @@
         result = "The function accepts an integer";
         return result;
         }
-      }
-    </code>
-  </pre>
+      }</code></pre>
       </section>
       <section class="section education-skills" id="education">
         <hr>
@@ -208,11 +207,10 @@
   </main>
   <footer class="footer">
     <div class="container footer-nav">
-        <div class="footer-item" >© 2022 <a class="copywrite" href="https://github.com/dzichonka" target="_blank" rel="noopener noreferrer">dzichonka</a></div>
+        <div class="footer-item" >© 2023 <a class="copywrite" href="https://github.com/dzichonka" target="_blank" rel="noopener noreferrer">dzichonka</a></div>
         <a class="rsschool footer-item" href="https://rs.school/js/" target="_blank" rel="noopener noreferrer"></a>
 
     </div>
   </footer>
 </body>
-
 </html>
