@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Anna Vasilevich</title>
+  <meta name="description" content="Front-end developer">
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item"><a href="#contacts" class="header-link">Contacts</a></li>
+          <li class="header-item"><a href="#about" class="header-link">About Me</a></li>
+          <li class="header-item"><a href="#skills" class="header-link">Skills</a></li>
+          <li class="header-item"><a href="#code" class="header-link">Code</a></li>
+          <li class="header-item"><a href="#projects" class="header-link">Projects</a></li>
+          <li class="header-item"><a href="#education" class="header-link">Education</a></li>
+          <li class="header-item"><a href="#lang" class="header-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-main">
+        <img src="./assets/avatar.jpg" alt="main photo" class="main-photo">
+        <div class="main-title">
+          <h1 class="name">Anna Vasilevich</h1>
+          <hr>
+          <h2 class="ocupation">Junior Front-end developer</h2>
+        </div>
+      </section>
+      <section class="section section-contacts" id="contacts">
+        <hr>
+        <div class="title">
+          <h2>Contacts</h2>
+        </div>
+        <nav class="contacts-nav">
+          <ul class="contacts-list">
+            <li class="contacts-item">Phone: <a href="tel:+48694680523"
+                class="contacts-tel">+48&nbsp;694&nbsp;680&nbsp;523</a></li>
+            <li class="contacts-item">e-mail: <a href="mailto:anna.vasilevich.pl@gmail.com"
+                class="contacts-email">anna.vasilevich.pl@gmail.com</a></li>
+            <li class="contacts-item">GitHub: <a href="https://github.com/dzichonka" target="_blank"
+                rel="noopener noreferrer" class="contacts-gh">dzichonka</a></li>
+            <li class="contacts-item">Discord: Vasilisa (@dzichonka)</li>
+            <li class="contacts-item">Telegram: @dzichonka</li>
+          </ul>
+        </nav>
+      </section>
+      <section class="section section-about" id="about">
+        <hr>
+        <div class="title">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-descr">Looking for junior Front-end developer position that will allow to demonstrate and
+          broaden my intellectual and technical capabilities in the field of IT.
+          <br>
+          I hope that my tech and soft skills acquied during my education and work experience will come in handy here as
+          well.
+          <br>
+          Now I am improving my English, reading a lot about Front-end, expanding my technical horizons.
+          Ready to work, learning and grow.
+        </div>
+      </section>
+      <section class="section section-strengths">
+        <hr>
+        <div class="title">
+          <h2>My strengths</h2>
+        </div>
+        <nav class="strengths-nav">
+          <ul class="strengths-list">
+            <li class="strengths-item">Creative thinking</li>
+            <li class="strengths-item">Flexibility</li>
+            <li class="strengths-item">Friendly</li>
+            <li class="strengths-item">Active listener</li>
+            <li class="strengths-item">Motivated</li>
+            <li class="strengths-item">Critical thinking</li>
+            <li class="strengths-item">Analytical skills</li>
+          </ul>
+        </nav>
+      </section>
+      <section class="section section-skills" id="skills">
+        <hr>
+        <div class="title">
+          <h2>Skills</h2>
+        </div>
+        <nav class="skills-nav">
+          <ul class="skills-list">
+            <li class="skills-item">HTML</li>
+            <li class="skills-item">CSS</li>
+            <li class="skills-item">JavaScript</li>
+            <li class="skills-item">GIT</li>
+            <li class="skills-item">Gulp</li>
+            <li class="skills-item">MySQL</li>
+            <li class="skills-item">IT Essentials</li>
+            <li class="skills-item">Photoshop</li>
+          </ul>
+        </nav>
+      </section>
+      <section class="section section-code" id="code">
+        <hr>
+        <div class="title">
+          <h2>Code example</h2>
+        </div>
+        <div class="code-descr">In this kata, you are asked to square every digit of a number and concatenate them.
+          <br>
+          For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.
+          (81-1-1-81)
+          <br>
+          Note: The function accepts an integer and returns an integer.
+        </div>
+        <pre><code>
+      function squareDigits(num) {
+        let result = "";
+        if (Number.isInteger(num)) {
+          let index = num.toString();
+          for (let i = 0; i &LT; index.length; i++) {
+            let indexNum = +index.substr(i, 1);
+            result += `${indexNum * indexNum}`;
+        }
+        return +result;
+        } else {
+        result = "The function accepts an integer";
+        return result;
+        }
+      }</code></pre>
+      </section>
+      <section class="section education-skills" id="education">
+        <hr>
+        <div class="title">
+          <h2>Education</h2>
+        </div>
+        <nav class="education-nav">
+          <ul class="education-list">
+            <li class="education-item">
+              <h3>RS School - JavaScript/Front-end</h3>
+              <div class="education-descr">June 2023 - now (On-line)</div>
+            </li>
+            <li class="education-item">
+              <h3>Cosinus - Computer science medical technician</h3>
+              <div class="education-descr">September 2022 - now (Warsaw/Poland)</div>
+            </li>
+            <li class="education-item">
+              <h3>Udemy - Full course on JavaScript + React</h3>
+              <div class="education-descr">September 2022 - now (On-line)</div>
+            </li>
+            <li class="education-item">
+              <h3>Cisco Networking Academy - IT Essentials</h3>
+              <div class="education-descr">November 2022 - May 2023 (On-line)</div>
+            </li>
+            <li class="education-item">
+              <h3>Udemy - WEB-developing</h3>
+              <div class="education-descr">December 2021 - August 2022 (On-line)</div>
+            </li>
+            <li class="education-item">
+              <h3>State University of Grodno - Course of photography</h3>
+              <div class="education-descr">November 2017 - May 2018 (Godno/Belarus)</div>
+            </li>
+            <li class="education-item">
+              <h3>Belarusian State Economic University** - Finance and credit</h3>
+              <div class="education-descr">September 2003 - June 2008 (Minsk/Belarus)</div>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="section section-projects" id="projects">
+        <hr>
+        <div class="title">
+          <h2>My projects</h2>
+        </div>
+        <nav class="projects-nav">
+          <ul class="projects-list">
+            <li>
+              <div class="link"><a target="_blank" href="https://dzichonka.github.io/">Anna Vasilevich</a>
+              </div>
+              <div class="tech">[HTML, CSS, JavaScript]</div>
+            </li>
+            <li>
+              <div class="link"><a target="_blank" href="https://lucky-monstera-896089.netlify.app/">Pulse</a>
+              </div>
+              <div class="tech">[HTML, CSS, JavaScript]</div>
+            </li>
+            <li>
+              <div class="link"><a target="_blank" href="https://superb-cannoli-ae43d1.netlify.app">Uber</a>
+              </div>
+              <div class="tech">[HTML, CSS]</div>
+            </li>
+            <li>
+              <div class="link"><a target="_blank" href="https://soft-madeleine-b3ad0c.netlify.app">Wordpress</a></div>
+              <div class="tech">[HTML, CSS]</div>
+            </li>
+            <li>
+              <div class="link"><a target="_blank" href="https://resilient-youtiao-8b2fd2.netlify.app">Food</a>
+              </div>
+              <div class="tech">[JavaScript]</div>
+            </li>
+            <li>
+              <div class="link"><a target="_blank" href="https://famous-tulumba-2dc634.netlify.app/">Library</a>
+              </div>
+              <div class="tech">[HTML, CSS, JavaScript]</div>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="section section-lang" id="lang">
+        <hr>
+        <div class="title">
+          <h2>Languages</h2>
+        </div>
+        <nav class="lang-nav">
+          <ul class="lang-list">
+            <li class="lang-list">Russian - native speaker</li>
+            <li class="lang-list">Belarusian - native speaker</li>
+            <li class="lang-list">English - B1</li>
+            <li class="lang-list">Polish - B1</li>
+          </ul>
+        </nav>
+      </section>
+
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-nav">
+      <div class="footer-item">© 2023 <a class="copywrite" href="https://github.com/dzichonka" target="_blank"
+          rel="noopener noreferrer">dzichonka</a></div>
+      <a class="rsschool footer-item" href="https://rs.school/js/" target="_blank" rel="noopener noreferrer"></a>
+
+    </div>
+  </footer>
+</body>
+
+</html>
