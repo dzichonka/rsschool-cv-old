@@ -1,15 +1,11 @@
 # Anna Vasilevich
-
 ---
-
 ## Junior Front-end Developer
-
 ---
-
 ## Contacts
 
 - **Phone:** +48 694 680 523
-- **e-mail:** dzichonka@gmail.com
+- **e-mail:** anna.vasilevich.pl@gmail.com
 - **GitHub:** dzichonka
 - **Discord:** Vasilisa (@dzichonka)
 - **Telegram:** @dzichonka
@@ -84,14 +80,14 @@ function squareDigits(num) {
 
 - [Run Smart](https://lucky-monstera-896089.netlify.app/ "Landing-page")
 - [CV Anna Vasilevich](https://dzichonka.github.io/ "Landing-page")
-- [Quiz](https://incredible-manatee-0567a0.netlify.app/ "on-line quiz")
+- [Library](https://famous-tulumba-2dc634.netlify.app/ "Landing-page")
 - [Uber777.Moscow](https://superb-cannoli-ae43d1.netlify.app/ "Landing-page")
 
 ---
 
 ## Education
 
-- **RS School** - JavaScript/Front-end. Stage 0
+- **RS School** - JavaScript/Front-end.
   - _June 2023 - now (On-line)_
 - **Cosinus** - Computer science medical technician
   - _September 2022 - now (Warsaw/Poland)_
